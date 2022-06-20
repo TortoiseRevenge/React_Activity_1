@@ -32,7 +32,6 @@
   .new-expense button.alternative:active {
     background-color: #ddb3f8;
   }
-  Break
   .new-expense__controls {
     display: flex;
     flex-wrap: wrap;
