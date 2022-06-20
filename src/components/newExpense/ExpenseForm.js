@@ -30,14 +30,10 @@ function ExpenseForm() {
   }
   return (
     <form onSubmit={submitHandler}>
-      {enteredTitle}
-      {enteredAmount}
-      {enteredDate}
       <div className="new-expense__controls">
         <div className="new-expense__controls">
           <label>Title</label>
           <input type="text" onChange={titleChangeHandler} value={enteredTitle}>
-            {" "}
           </input>
         </div>
         <div className="new-expense__controls">
@@ -57,7 +53,6 @@ function ExpenseForm() {
             min="2019-01-01"
             max="2022-12-31"
             onChange={dateChangeHandler}
-            n
             value={enteredDate}
           ></input>
         </div>
